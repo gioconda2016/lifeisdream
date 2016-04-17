@@ -1,0 +1,112 @@
+
+
+/*backgrounds*/
+
+html{
+    
+    background-image: url(images/topgrey.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+/* index and indice backgrounds*/
+
+.index{
+    
+    background-image: url(images/cbuildingblack1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+
+body{
+    font:75% georgia, sans-serif;
+    color:#555753;
+
+}
+.header{
+    width:900px;
+    float: right;
+    position: relative;
+    top: 65px;
+}
+
+
+ 
+     /* font style */
+     
+ h1{
+     color:#0d00a4;
+     font-size: 75px;
+     text-align: left;
+     font-family: Philosopher,serif
+    /* #555753*/
+ }
+ 
+ 
+ h2{
+     color:#0d00a4;
+     font-size: 30px;
+     text-align: center;
+     
+ }
+ 
+p{
+   color:#f2f2f2;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+/*nav style*/
+
+
+.nav{
+    position: fixed;
+    bottom:0;
+    right:0;
+    
+    
+     
+ }
+
+ul{
+    list-style-type: none;
+    margin:0;
+    width:950px;
+    
+    
+}
+
+ li {
+     display:inline-block;
+     margin:15px;
+    
+    
+    
+} 
+
+li a{
+    display:block;
+    color:indianred;
+    text-align: center;
+    padding:10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+
+
+a.active{
+    color: #0d00a4;
+    
+}
+li a:hover:not(.active) {
+    
+    color: #0d00a4;
+}
+/* nav ends*/
